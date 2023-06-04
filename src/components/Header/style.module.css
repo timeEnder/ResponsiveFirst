@@ -1,5 +1,5 @@
 .container{
-    @apply flex flex-row items-center justify-between bg-black text-white w-full h-[6vh]
+    @apply flex flex-row items-center justify-between bg-black text-white w-screen h-[6vh]
 }
 
 .label{
