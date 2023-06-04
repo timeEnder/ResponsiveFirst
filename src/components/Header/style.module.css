@@ -16,9 +16,7 @@
 
 @media only screen and (max-width: 420px){
     .container{
-        @apply flex flex-row items-center justify-between bg-red-500 text-white w-full h-[6vh]
+        @apply flex flex-row items-center justify-between bg-black text-white w-full h-[6vh]
     }
-    .menu{
-        @apply flex flex-row items-center justify-center flex-wrap w-[6vh] h-full bg-[#141316] rounded-full border-2 border-transparent cursor-pointer
-    }
+
 }
