@@ -18,4 +18,7 @@
     .container{
         @apply flex flex-row items-center justify-between bg-red-500 text-white w-full h-[6vh]
     }
+    .menu{
+        @apply flex flex-row items-center justify-center flex-wrap w-[6vh] h-full bg-[#141316] rounded-full border-2 border-transparent cursor-pointer
+    }
 }
