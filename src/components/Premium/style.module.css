@@ -6,7 +6,7 @@
 }
 
 .font{
-    @apply text-lg text-gray-400
+    @apply text-lg text-gray-400 font-normal
 }
 
 .box2{
