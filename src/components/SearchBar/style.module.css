@@ -20,7 +20,7 @@
 
 @media only screen and (max-width: 420px){
     .set{
-        @apply flex flex-row items-center justify-center bg-[#7b67f9] h-[80%] w-[8vh] rounded-full
+        @apply flex flex-row items-center justify-center bg-[#7b67f9] h-[80%] w-[8.5vh] rounded-full
     }
     .line{
         @apply w-[2%] h-full bg-white rounded-full
