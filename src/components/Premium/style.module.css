@@ -2,7 +2,7 @@
     @apply flex flex-row justify-between items-center w-full h-[14vh] bg-[#fff09d] border-2 border-black rounded-3xl p-2 mt-6
 }
 .box{
-    @apply flex flex-col justify-center w-full h-[12vh] text-2xl font-bold
+    @apply flex flex-col justify-center w-full h-[12vh] text-3xl font-bold
 }
 
 .font{
@@ -22,7 +22,7 @@
         @apply text-sm text-gray-400
     }
     .box{
-        @apply flex flex-col justify-center w-full h-[12vh] text-lg font-bold
+        @apply flex flex-col justify-center w-full h-[12vh] text-xl font-bold
     }
     .box2{
         @apply flex flex-row items-center justify-center bg-[#fff6ce] w-[12vh] h-[80%] rounded-full
