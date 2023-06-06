@@ -15,13 +15,13 @@
 }
 
 .block2{
-    @apply w-[35%] h-full bg-red-600 rounded-3xl
+    @apply w-[35%] h-full bg-[#654645] rounded-3xl
 }
 
 .block3{
-    @apply w-[40%] h-full bg-red-600 rounded-3xl
+    @apply w-[40%] h-full bg-[#466566] rounded-3xl
 }
 
 .block4{
-    @apply w-[55%] h-full bg-red-600 rounded-3xl
+    @apply w-[55%] h-full bg-[#4b2934] rounded-3xl
 }
