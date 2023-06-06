@@ -1,0 +1,19 @@
+.container{
+    @apply flex flex-row items-center w-full h-[8vh] mt-6 bg-black
+}
+
+.line{
+    @apply w-[0.5%] h-full bg-white rounded-full
+}
+
+.svg{
+    @apply ml-4
+}
+
+.input{
+    @apply ml-2 bg-black w-[94%]
+}
+
+.set{
+    @apply flex flex-row items-center justify-center bg-[#7b67f9] h-[80%] w-[6.5vh] rounded-full
+}
