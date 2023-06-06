@@ -7,7 +7,7 @@
 }
 
 .line{
-    @apply flex flex-row items-center justify-between w-full h-[20vh] bg-green-500 mt-4
+    @apply flex flex-row items-center justify-between w-full h-[20vh] bg-transparent mt-4
 }
 
 .block1{
