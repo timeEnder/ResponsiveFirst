@@ -1,0 +1,18 @@
+.container{
+    @apply flex flex-row justify-between items-center w-full h-[14vh] text-2xl bg-[#fff09d] border-2 border-black rounded-3xl p-2 mt-6
+}
+.box{
+    @apply flex flex-col justify-center w-full h-[12vh]
+}
+
+.font{
+    @apply text-lg text-gray-400
+}
+
+.box2{
+    @apply flex flex-row items-center justify-center bg-[#fff6ce] w-[10vh] h-[80%] rounded-full
+}
+
+.box2 img{
+    @apply w-[60%] h-[60%]
+}
