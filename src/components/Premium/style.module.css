@@ -22,7 +22,7 @@
         @apply text-sm text-gray-400
     }
     .box{
-        @apply flex flex-col justify-center w-full h-[12vh] text-xl font-bold
+        @apply flex flex-col justify-center w-full h-[12vh] text-2xl font-bold
     }
     .box2{
         @apply flex flex-row items-center justify-center bg-[#fff6ce] w-[12vh] h-[80%] rounded-full
