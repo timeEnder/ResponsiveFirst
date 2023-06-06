@@ -25,4 +25,7 @@
     .line{
         @apply w-[2%] h-full bg-white rounded-full
     }
+    .container{
+        @apply flex flex-row items-center w-full h-[8vh] mt-8 bg-black
+    }
 }
