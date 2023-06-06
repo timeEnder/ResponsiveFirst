@@ -8,6 +8,10 @@ export default function Task(){
                 <div className={style.block1}></div>
                 <div className={style.block2}></div>
             </div>
+            <div className={style.line}>
+                <div className={style.block3}></div>
+                <div className={style.block4}></div>
+            </div>
         </div>
     )
 }
