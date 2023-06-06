@@ -1,0 +1,7 @@
+.container{
+    @apply w-full h-auto text-white mt-8
+}
+
+.title{
+    @apply flex flex-row items-center justify-between w-full h-[4vh] font-sans
+}

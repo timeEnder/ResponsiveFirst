@@ -1,3 +1,3 @@
 .cxntainer{
-    @apply flex flex-col items-center bg-black w-screen h-full p-2
+    @apply flex flex-col items-center bg-black w-screen h-full p-6
 }

@@ -2,6 +2,7 @@ import './App.css';
 import Header from "./components/Header/Header";
 import Premium from "./components/Premium/Premium";
 import SearchBar from "./components/SearchBar/SearchBar";
+import Task from "./components/Task/Task";
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
         <Header/>
         <Premium/>
         <SearchBar/>
+        <Task/>
     </div>
   )
 }
