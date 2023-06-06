@@ -24,4 +24,7 @@
     .box{
         @apply flex flex-col justify-center w-full h-[12vh] text-lg
     }
+    .box2{
+        @apply flex flex-row items-center justify-center bg-[#fff6ce] w-[12vh] h-[80%] rounded-full
+    }
 }
