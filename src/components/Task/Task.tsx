@@ -8,7 +8,7 @@ export default function Task(){
             <div className={style.line}>
                 <div className={style.block1}>
                     <div className={style.inline}><img src={phone}/>
-                        <div className={'flex flex-row items-center justify-center w-[15%] h-[4vh] bg-white text-black rounded-l-full'}>47% Complete</div>
+                        <div className={style.but}>47% Complete</div>
                     </div>
                     APP DESIGN
                 </div>

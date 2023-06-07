@@ -18,6 +18,10 @@
     @apply flex flex-row items-center justify-between h-[50%]
 }
 
+.but{
+    @apply flex flex-row items-center justify-center w-[15%] h-[4vh] bg-white text-black rounded-l-full
+}
+
 .block2{
     @apply flex flex-col w-[35%] h-full bg-[#654645] rounded-3xl p-4
 }
@@ -28,4 +32,10 @@
 
 .block4{
     @apply flex flex-col w-[55%] h-full bg-[#603643] rounded-3xl p-4
+}
+
+@media only screen and (max-width: 420px) {
+    .but{
+        @apply flex flex-row items-center justify-center w-[50%] h-[4vh] bg-white text-black rounded-l-full text-sm
+    }
 }
