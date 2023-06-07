@@ -11,17 +11,21 @@
 }
 
 .block1{
-    @apply w-[60%] h-full bg-[#46546f] rounded-3xl p-4
+    @apply flex flex-col w-[60%] h-full bg-[#46546f] rounded-3xl ps-4 py-4
+}
+
+.inline{
+    @apply flex flex-row items-center justify-between h-[50%]
 }
 
 .block2{
-    @apply w-[35%] h-full bg-[#654645] rounded-3xl p-4
+    @apply flex flex-col w-[35%] h-full bg-[#654645] rounded-3xl p-4
 }
 
 .block3{
-    @apply w-[40%] h-full bg-[#466566] rounded-3xl p-4
+    @apply flex flex-col w-[40%] h-full bg-[#466566] rounded-3xl p-4
 }
 
 .block4{
-    @apply w-[55%] h-full bg-[#603643] rounded-3xl p-4
+    @apply flex flex-col w-[55%] h-full bg-[#603643] rounded-3xl p-4
 }
