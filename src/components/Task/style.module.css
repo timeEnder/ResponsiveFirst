@@ -36,6 +36,6 @@
 
 @media only screen and (max-width: 420px) {
     .but{
-        @apply flex flex-row items-center justify-center w-[50%] h-[4vh] bg-white text-black rounded-l-full text-sm
+        @apply flex flex-row items-center justify-center w-[55%] h-[4vh] bg-white text-black rounded-l-full text-sm
     }
 }
