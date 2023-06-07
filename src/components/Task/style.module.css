@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200&family=Poppins:ital,wght@0,200;0,400;0,600;1,300&display=swap');
+
 .container{
     @apply w-full h-auto text-white mt-8
 }
@@ -19,7 +22,12 @@
 }
 
 .but{
-    @apply flex flex-row items-center justify-center w-[15%] h-[4vh] bg-white text-black rounded-l-full
+    @apply flex flex-row items-center justify-center w-[15%] h-[4vh] bg-white text-black rounded-l-full text-base
+}
+
+.text{
+    font-family: 'Noto Sans JP', sans-serif;
+    @apply text-3xl font-bold
 }
 
 .block2{
