@@ -30,6 +30,10 @@
     @apply text-3xl font-bold
 }
 
+.text2{
+    @apply text-gray-400
+}
+
 .block2{
     @apply flex flex-col w-[35%] h-full bg-[#654645] rounded-3xl p-4
 }
@@ -39,7 +43,7 @@
 }
 
 .block4{
-    @apply flex flex-col w-[55%] h-full bg-[#603643] rounded-3xl p-4
+    @apply flex flex-col w-[55%] h-full bg-[#4b2934] rounded-3xl p-4
 }
 
 @media only screen and (max-width: 420px) {
