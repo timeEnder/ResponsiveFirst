@@ -1,0 +1,11 @@
+.container{
+    @apply flex flex-row items-center justify-between bg-black text-white w-full h-auto p-0 m-0
+}
+
+.retbut{
+    @apply flex flex-row items-center justify-center w-[6vh] h-[6vh] bg-[#141316] rounded-full border-2 border-transparent p-3 cursor-pointer
+}
+
+.text{
+    @apply text-white text-xl
+}

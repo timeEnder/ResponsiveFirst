@@ -1,4 +1,5 @@
 import style from './style.module.css';
+import {Link, useLocation} from "react-router-dom";
 import phone from '../../resourses/phone.png';
 import laptop from '../../resourses/laptop.png';
 import clients from '../../resourses/clients.png';
@@ -10,9 +11,13 @@ export default function Task(){
             <div className={style.title}><div className={'font-bold text-2xl'}>Pending Task</div><div className={'text-[#5fbc7f] font-bold'}>See All</div></div>
             <div className={style.line}>
                 <div className={style.block1}>
-                    <div className={style.inline}><img src={phone}/><div className={style.but}>47% Complete</div></div>
-                    <div className={style.text}>APP DESIGN</div>
-                    <div className={style.text2}>App Design Task</div>
+                <Link to={'/app_design'}>
+                    <div className={style.block1_1}>
+                        <div className={style.inline}><img src={phone}/><div className={style.but}>47% Complete</div></div>
+                        <div className={style.text}>APP DESIGN</div>
+                        <div className={style.text2}>App Design Task</div>
+                    </div>
+                </Link>
                 </div>
                 <div className={style.block2}>
                     <div className={style.inline}><img src={laptop}/></div>

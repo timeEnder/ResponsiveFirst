@@ -1,17 +1,17 @@
 import './App.css';
-import Header from "./components/Header/Header";
-import Premium from "./components/Premium/Premium";
-import SearchBar from "./components/SearchBar/SearchBar";
-import Task from "./components/Task/Task";
+import {Routes, Route } from "react-router-dom";
+import Main from "./pages/Main/Main";
+import AppDesign from "./pages/AppDesign/AppDesign";
+
 
 function App() {
 
   return (
     <div className='cxntainer'>
-        <Header/>
-        <Premium/>
-        <SearchBar/>
-        <Task/>
+        <Routes>
+            <Route path = {'/'} element = {<Main/>}/>
+            <Route path = {'/app_design'} element = {<AppDesign/>}/>
+        </Routes>
     </div>
   )
 }
