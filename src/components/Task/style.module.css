@@ -50,4 +50,12 @@
     .but{
         @apply flex flex-row items-center justify-center w-[55%] h-[4vh] bg-white text-black rounded-l-full text-sm
     }
+    .text{
+        font-family: 'Noto Sans JP', sans-serif;
+        @apply text-2xl font-bold
+    }
+
+    .text2{
+        @apply text-gray-400 text-sm
+    }
 }
