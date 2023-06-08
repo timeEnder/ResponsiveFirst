@@ -14,7 +14,7 @@
 }
 
 .block1{
-    @apply flex flex-col w-[60%] h-full bg-[#46546f] rounded-3xl ps-4 py-4
+    @apply flex flex-col w-[60%] h-full bg-[#46546f] rounded-3xl ps-4 py-4 cursor-pointer
 }
 
 .inline{
