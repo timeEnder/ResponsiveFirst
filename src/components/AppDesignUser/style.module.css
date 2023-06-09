@@ -16,7 +16,7 @@
 
 @media only screen and (max-width: 420px){
     .round{
-        @apply w-[15.3vw] h-[50%] rounded-full bg-green-300 overflow-hidden
+        @apply w-[19.5vw] h-[60%] rounded-full bg-green-300 overflow-hidden
     }
 
     .title{
