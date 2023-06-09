@@ -1,6 +1,7 @@
 import style from './style.module.css';
 import AppDesignHeader from "../../components/AppDesingHeader/AppDesignHeader";
 import AppDesignUser from "../../components/AppDesignUser/AppDesignUser";
+import AppDesignMembers from "../../components/AppDesignMembers/AppDesignMembers";
 
 export default function AppDesign(){
     return(
@@ -12,6 +13,7 @@ export default function AppDesign(){
                 <div className={style.desc_title}>Description</div>
                 <div className={style.desc_text}>Task manager app ul kit must be uniqe and trendy. In this app we need every features and section about task manager</div>
             </div>
+            <AppDesignMembers/>
         </div>
     )
 }
