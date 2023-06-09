@@ -1,0 +1,47 @@
+.container{
+    @apply flex flex-col w-full h-auto mt-6
+}
+
+.title{
+    @apply text-xl
+}
+
+.block{
+    @apply flex flex-row items-center w-full h-[8vh] bg-[#ffee9d] rounded-3xl text-black p-4 mt-4
+}
+
+.round{
+    @apply flex flex-row items-center justify-center w-[1.95vw] h-[80%] bg-black rounded-full ml-3
+}
+
+.round2{
+    @apply w-[1.08vw] h-[60%] bg-[#ffee9d] rounded-full
+}
+
+.block_title{
+    @apply ml-6 font-bold text-xl
+}
+
+.block_text{
+    @apply ml-2 text-base
+}
+
+.block2{
+    @apply flex flex-row items-center w-full h-[8vh] bg-black rounded-3xl text-white p-4 mt-4
+}
+
+.round3{
+    @apply flex flex-row items-center justify-center w-[1.95vw] h-[80%] bg-[#ffee9d] rounded-full ml-3
+}
+
+.round4{
+    @apply w-[1.8vw] h-[95%] bg-black rounded-full
+}
+
+.block_title2{
+    @apply ml-6 font-bold text-xl
+}
+
+.block_text2{
+    @apply ml-2 text-base text-[#c08d1e]
+}
