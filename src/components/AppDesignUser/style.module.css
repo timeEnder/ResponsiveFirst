@@ -24,11 +24,11 @@
 
 @media only screen and (max-width: 420px){
     .round{
-        @apply w-[16.7vw] h-[45%] rounded-full bg-green-300 overflow-hidden
+        @apply w-[18.95vw] h-[50%] rounded-full bg-green-300 overflow-hidden
     }
 
     .round2{
-        @apply flex flex-row items-center justify-center w-[16.7vw] h-[45%] rounded-full bg-[#7c67ff] overflow-hidden
+        @apply flex flex-row items-center justify-center w-[18.95vw] h-[50%] rounded-full bg-[#7c67ff] overflow-hidden
     }
 
     .title{
