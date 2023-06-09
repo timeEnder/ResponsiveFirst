@@ -1,3 +1,23 @@
 .container{
     @apply flex flex-col w-full h-full bg-black text-white
 }
+
+.title{
+    @apply flex flex-col w-full text-5xl pt-6
+}
+
+.text{
+    @apply text-lg pt-2 text-gray-400
+}
+
+
+
+@media only screen and (max-width: 420px){
+    .title{
+        @apply flex flex-col w-full text-4xl pt-6
+    }
+    .text{
+        @apply text-base pt-2 text-gray-400
+    }
+
+}
