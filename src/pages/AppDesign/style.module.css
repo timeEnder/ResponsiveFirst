@@ -10,6 +10,17 @@
     @apply text-lg pt-2 text-gray-400
 }
 
+.description{
+    @apply flex flex-col justify-center w-full h-[16vh]
+}
+
+.desc_title{
+    @apply text-xl pt-2 text-white
+}
+
+.desc_text{
+    @apply text-lg pt-2 text-gray-400
+}
 
 
 @media only screen and (max-width: 420px){
@@ -19,5 +30,11 @@
     .text{
         @apply text-base pt-2 text-gray-400
     }
+    .desc_title{
+        @apply text-lg pt-2 text-white
+    }
 
+    .desc_text{
+        @apply text-base pt-2 text-gray-400
+    }
 }
