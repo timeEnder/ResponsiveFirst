@@ -28,7 +28,7 @@
     }
 
     .round2{
-        @apply flex flex-row items-center justify-center w-[18.95vw] h-[50%] rounded-full bg-[#7c67ff] overflow-hidden
+        @apply flex flex-row items-center justify-center w-[22.3vw] h-[50%] rounded-full bg-[#7c67ff] overflow-hidden ml-4
     }
 
     .title{
