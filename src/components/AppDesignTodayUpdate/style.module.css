@@ -52,7 +52,7 @@
     }
 
     .round{
-        @apply flex flex-row items-center justify-center w-[7.634vw] h-[80%] bg-black rounded-full ml-2
+        @apply flex flex-row items-center justify-center w-[7.25vw] h-[80%] bg-black rounded-full ml-2
     }
 
     .round2{
@@ -72,7 +72,7 @@
     }
 
     .round3{
-        @apply flex flex-row items-center justify-center w-[7.634vw] h-[80%] bg-[#ffee9d] rounded-full ml-3
+        @apply flex flex-row items-center justify-center w-[7.25vw] h-[80%] bg-[#ffee9d] rounded-full ml-3
     }
 
     .round4{
