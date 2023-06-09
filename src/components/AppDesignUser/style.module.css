@@ -2,8 +2,16 @@
     @apply flex flex-row items-center w-full h-[12vh] text-white
 }
 
+.block{
+    @apply flex flex-row items-center w-[50%] h-full
+}
+
 .round{
-    @apply w-[3.8vw] h-[60%] rounded-full bg-green-300 overflow-hidden
+    @apply w-[4vw] h-[60%] rounded-full bg-green-300 overflow-hidden
+}
+
+.round2{
+    @apply flex flex-row items-center justify-center w-[3.8vw] h-[60%] rounded-full bg-[#7c67ff] overflow-hidden
 }
 
 .title{
